@@ -58,9 +58,9 @@ def give_a_random_solution(no_of_features):
     vector.append(np.array(tf_spool[current_set]))
 
     # Transfer Function for Hidden Layer 2
-    current_set = random.randint(0, 3)
-    vector.append(np.array(tf_spool[current_set]))
-    return np.array(vector)
+    # current_set = random.randint(0, 3)
+    # vector.append(np.array(tf_spool[current_set]))
+    # return np.array(vector)
 
 
 def reset_grasshopper(gh):
