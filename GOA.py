@@ -63,9 +63,9 @@ def give_a_random_solution(no_of_features):
     # return np.array(vector)
 
 
-def reset_grasshopper(gh):
-    Count = 0
-    for i in gh[0]:
+# def reset_grasshopper(gh):
+#     Count = 0
+#     for i in gh[0]:
         if i == 1:
             Count += 1
     if Count >= settings.minimum_no_of_present_features:
